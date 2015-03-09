@@ -1,11 +1,17 @@
 # Display-Random-Video-From-YouTube-Playlist
 
 <h2>What's This?</h2>
-<p>A JavaScript solution to playing a random video from a youTube playlist.</p>
+<p>A JavaScript / JQuery solution to playing a random video from a YouTube playlist.</p>
+
+<h3>Requirements</h3>
+<ul>
+<li>JQuery</li>
+<li>This code uses the YouTube api, so you will need to aquire an API key. (steps below)</li>
+</ul>
 
 <p>The code connects to the YouTube API and retrieves the information about the playlist. It then counts the number of items in the playlist and selects a random number between 0 and the total number of videos. That random number is then used to select a video from the playlist and the video embed code is changed to play that video.</p>
 
-<h2>STEPS FOR CONNECTING TO YOUTUBE API</h2>
+<h2>Steps for conecting to the YouTube api</h2>
 <ul>
 <li>Go to Google Developers console</li>
 <li>Create a new project</li>
